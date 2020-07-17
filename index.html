@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imkerei Charra</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="util.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <img src="hintergrund.svg" width="700px" alt="" class="bg-img"/>
+
+    <div class="heading centered pull-up animate__animated animate__fadeInDown">
+        Imkerei Charra <br>
+        Am Neugraben 17 <br>
+        79112 Freiburg-Opfingen
+    </div>
+
+    <div class="menu centered">
+        <span id="menu_news" class="item" onclick="showmenu('news');">
+            &#9757; Aktuell
+        </span>
+        <span id="menu_contact" class="item" onclick="showmenu('contact');">
+            &#128587; Kontakt
+        </span>
+        <span id="menu_about" class="item" onclick="showmenu('about');">
+            &#x1F469;&#x1F3FB;&#x1F471;&#x1F3FB;&#x1F466;&#x1F3FC;&#x1F467;&#x1F3FC; Wir
+        </span>
+    </div>
+
+    <div class="content">
+        <div id="news" class="section">
+            <p>
+                Wir haben im Jahr 2020 wieder viel feinen Blütenhonig geerntet. &#128029;&#127855; <br>
+                Wir bieten ihn im Glas zu 500g oder 250g an.
+            </p>
+
+            <p class="centered">
+                Preise: <br>
+                500g - 6 Euro<br>
+                250g - 4 Euro
+            </p>
+        </div>
+
+        <div id="contact" class="section">
+            <p class="centered">
+                E-Mail: <a href="mailto:hallo@honig-charra.de">hallo@honig-charra.de</a><br>
+                Telefon: <a href="tel:+4976646128995">07664 / 6128995</a>
+            </p>
+
+            <p>
+                Wichtig: Bestellungen müssen bis auf Weiteres persönlich bei uns abgeholt werden.
+            </p>
+            <p>
+                Ausnahme (ein wenig Lokalpatriotismus muss sein): Für Bestellungen innerhalb Opfingens ab 1kg liefern
+                wir frei Haus. &#129395; Gebt uns ggf. ein paar mögliche Termine an, wann wir vorbeikommen
+                können, bevorzugt abends ab 17 Uhr oder auch am Wochenende.
+            </p>
+        </div>
+
+        <div id="about" class="section">
+            <p>
+                Wir sind Familie Charra und imkern seit 2018. Beim Imkerverein Freiburg haben wir unseren
+                Imker- und Honigkurs gemacht. Seitdem kümmern wir uns um mehrere Carnica-Bienenvölker in Opfingen.
+            </p>
+        </div>
+
+        <p class="centered">
+            <a href="./impressum.html">Impressum</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
