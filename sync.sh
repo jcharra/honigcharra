@@ -1,8 +1,9 @@
 #!/bin/sh
-scp *.html jcharra@207.38.94.46:webapps/honigcharra/
-scp *.svg jcharra@207.38.94.46:webapps/honigcharra/
-scp *.css jcharra@207.38.94.46:webapps/honigcharra/
-scp *.js jcharra@207.38.94.46:webapps/honigcharra/
-scp *.jpg jcharra@207.38.94.46:webapps/honigcharra/
+
+scp *.html strato:/var/www/honig-charra.de/public_html/
+scp *.svg strato:/var/www/honig-charra.de/public_html/
+scp *.css strato:/var/www/honig-charra.de/public_html/
+scp *.js strato:/var/www/honig-charra.de/public_html/
+scp *.jpg strato:/var/www/honig-charra.de/public_html/
 
 
