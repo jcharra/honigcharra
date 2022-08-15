@@ -1,92 +1,97 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    background-color: green;
-    font-family: "Amatic SC", cursive, Tahoma;
-    font-weight: bold;
-    color: #333;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: green;
+  font-family: "Amatic SC", cursive, Tahoma;
+  font-weight: bold;
+  color: #333;
 }
 
 .container {
-    display: block;
+  display: block;
 }
 
 .container .bg-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .heading {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .centered {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .pull-up {
-    margin-top: -300px;
-    margin-bottom: 100px;
+  margin-top: -300px;
+  margin-bottom: 100px;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: yellow;
+  text-decoration: none;
+  color: yellow;
 }
 
 a:hover {
-    color: violet;
+  color: violet;
 }
 
 .content {
-    padding: 0 200px 0 200px;
-    font-size: 30px;
-    color: #eee;
-    text-align: center;
+  padding: 0 200px 0 200px;
+  font-size: 30px;
+  color: #eee;
+  text-align: center;
 }
 
 .menu {
-    padding-top: 30px;
-    font-size: 36px;
+  padding-top: 30px;
+  font-size: 36px;
 }
 
 .menu .item {
-    display: inline-block;
-    padding: 0 30px;
-    cursor: pointer;
+  display: inline-block;
+  padding: 0 30px;
+  cursor: pointer;
 }
 
 .menu .active {
-    color: violet;
+  color: violet;
 }
 
 @media only screen and (max-width: 768px) {
-    .pull-up {
-        margin-top: -250px;
-        margin-bottom: 80px;
-    }
+  .pull-up {
+    margin-top: -250px;
+    margin-bottom: 80px;
+  }
 
-    .container {
-        display: block;
-        height: auto;
-    }
+  .container {
+    display: block;
+    height: auto;
+  }
 
-    .container .bg-img {
-        margin-left: 0;
-        width: 100%;
-    }
+  .container .bg-img {
+    margin-left: 0;
+    width: 100%;
+  }
 
-    .content {
-        padding: 20px 20px 10px 20px;
-        font-size: 30px;
-        color: #eee;
-        text-align: left;
-    }
+  .content {
+    padding: 20px 20px 10px 20px;
+    font-size: 30px;
+    color: #eee;
+    text-align: left;
+  }
 
-    .menu .item {
-        display: inline-block;
-        padding: 0 30px;
-    }
+  .menu .item {
+    display: inline-block;
+    padding: 0 30px;
+  }
 }
