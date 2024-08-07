@@ -49,22 +49,6 @@ a:hover {
   padding: 0 200px 0 200px;
   font-size: 30px;
   color: #eee;
-  text-align: center;
-}
-
-.menu {
-  padding-top: 30px;
-  font-size: 36px;
-}
-
-.menu .item {
-  display: inline-block;
-  padding: 0 30px;
-  cursor: pointer;
-}
-
-.menu .active {
-  color: violet;
 }
 
 @media only screen and (max-width: 768px) {
@@ -87,14 +71,5 @@ a:hover {
     padding: 20px 20px 10px 20px;
     font-size: 30px;
     color: #eee;
-  }
-
-  .menu .item {
-    display: inline-block;
-    padding: 0 30px;
-  }
-
-  .content img {
-    max-width: 350px;
   }
 }
